@@ -43,6 +43,7 @@ public class ProductController {
         }
         Product exitsProduct = productId.get();
         exitsProduct.setName(product.getName());
+        exitsProduct.setPrice(product.getPrice());
         exitsProduct.setThumbnail(product.getThumbnail());
         exitsProduct.setDescription(product.getDescription());
         exitsProduct.setSlug(product.getSlug());
